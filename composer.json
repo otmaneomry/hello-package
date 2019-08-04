@@ -1,0 +1,19 @@
+{
+    "name": "devotmane/hello-package",
+    "description": "My first Composer project",
+    "authors": [
+        {
+            "name": "dev otmane",
+            "email": "ma.otmane@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
